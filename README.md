@@ -15,4 +15,8 @@ gcloud auth application-default login
 
 # update the package to the latest
 npm install ts-node-dev@latest ts-node@latest
+
+# if there is compilation error of TypeScript, we need to update the typescript to the latest.
+npm install typescript --save-dev
 ```
+
